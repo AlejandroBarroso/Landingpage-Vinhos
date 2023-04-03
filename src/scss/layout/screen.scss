@@ -1,0 +1,33 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.screen {
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    picture {
+        width: 100%;
+    }
+    
+}
+
+.contenido-sreen {
+    h2 {
+        color: red;
+        font-size: 6rem;
+        margin: 0;
+    }
+
+    p {
+        color: red;
+    }
+}
+

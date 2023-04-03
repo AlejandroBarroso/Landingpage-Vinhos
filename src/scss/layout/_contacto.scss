@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+h3 {
+    font-size: 5rem;
+    text-align: center;
+    color: v.$verde;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.iconos {
+    img {
+        max-width: 40%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}
